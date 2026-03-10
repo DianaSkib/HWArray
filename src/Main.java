@@ -68,5 +68,14 @@ public class Main {
             }
         }
         System.out.println();
+
+        /// task 4
+
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 != 0) {
+                numbers[i] += 1;
+            }
+        }
+        System.out.println(Arrays.toString(numbers));
     }
 }
