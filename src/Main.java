@@ -43,5 +43,30 @@ public class Main {
             }
         }
         System.out.println();
+
+        /// task 3
+        for (int i = numbers.length - 1; i >= 0; i--) {
+            System.out.print(numbers[i]);
+            if (i > 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+
+        for (int a = arr.length - 1; a >= 0; a--) {
+            System.out.print(arr[a]);
+            if (a > 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+
+        for (int i = humsters.length - 1; i >= 0; i--) {
+            System.out.print(humsters[i]);
+            if (i > 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
     }
 }
